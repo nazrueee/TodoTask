@@ -1,0 +1,44 @@
+# React Native
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build
+android/build/
+android/app/build/
+ios/Pods/
+ios/build/
+ios/.vscode/
+
+# Native binary & APK files (GitHub max file size is 100MB)
+*.apk
+*.so
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# React Native packager
+*.log
+
+# Expo
+.expo/
+.expo-shared/
+
+# Environment variable files
+.env
+.env.*.local
+
+# Metro Bundler cache
+metro-cache/
+
+# Android Studio
+.gradle/
+local.properties
+
+# Other
+coverage/
